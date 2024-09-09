@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="#home">Deron Clothing</a>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#collections" class="dropbtn">Collections</a>
+                    <div class="dropdown-content">
+                        <a href="#">Summer Collection</a>
+                        <a href="#men">Men's Wear</a>
+                        <a href="#women">Women's Wear</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Deron Clothing</h1>
+            <p>Discover the latest trends and timeless styles at Deron Clothing. Shop now for a unique and stylish wardrobe.</p>
+            <button class="cta-button">Shop Now</button>
+            <div class="find-store">
+                <label for="location">Find Your Nearest Store:</label>
+                <input type="text" id="location" placeholder="Enter your city or zip code">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Deron Clothing</h2>
+                <p>At Deron Clothing, we believe in the power of style and self-expression. Our collections are curated to offer you the best in fashion, whether you're looking for the latest trends or classic pieces.</p>
+                <p>From casual wear to formal attire, we have something for every occasion. Join us and redefine your wardrobe with Deron Clothing.</p>
+                <p>Explore our range and find your perfect fit today!</p>
+            </div>
+            <div class="about-image">
+                <img src="assets/about.jpg" alt="Deron Clothing Store" />
+            </div>
+        </div>
+    </section>
+
+    <section id="collections" class="collections-section">
+        <h2>Featured Collections</h2>
+        <div class="collection-grid">
+            <div class="collection-card">
+                <img src="assets/summer.jpg" alt="Summer Collection" class="collection-image">
+                <div class="collection-content">
+                    <h3>Summer Collection</h3>
+                    <p>Embrace the summer vibes with our vibrant and comfortable summer collection. From breezy dresses to casual tees, find your perfect summer outfit.</p>
+                    <ul>
+                        <li>Lightweight fabrics</li>
+                        <li>Bright and bold prints</li>
+                        <li>Perfect for warm weather</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="assets/men.jpg" alt="Men's Wear" class="collection-image">
+                <div class="collection-content">
+                    <h3>Men's Wear</h3>
+                    <p>Explore our stylish men's collection, featuring everything from casual wear to sophisticated formal attire. Upgrade your wardrobe with our latest arrivals.</p>
+                    <ul>
+                        <li>Trendy casual wear</li>
+                        <li>Elegant formal attire</li>
+                        <li>Accessories and more</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collection-card">
+                <img src="assets/women.jpg" alt="Women's Wear" class="collection-image">
+                <div class="collection-content">
+                    <h3>Women's Wear</h3>
+                    <p>Discover our chic women's wear collection. From elegant dresses to everyday essentials, we have everything you need to look and feel your best.</p>
+                    <ul>
+                        <li>Stylish dresses and skirts</li>
+                        <li>Comfortable tops and bottoms</li>
+                        <li>Accessories to complete your look</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="style-tips" class="style-tips-section">
+        <h2>Style Tips & Fashion Advice</h2>
+        <p>Get inspired with our latest style tips and fashion advice. Learn how to mix and match pieces, accessorize, and create stunning outfits for every occasion.</p>
+        <div class="style-tips-content">
+            <div class="style-tip-card">
+                <h3>Mix & Match</h3>
+                <p>Learn the art of mixing and matching pieces to create versatile and stylish outfits. Discover how to make the most of your wardrobe.</p>
+                <ul>
+                    <li>Layering basics</li>
+                    <li>Color coordination</li>
+                    <li>Accessorizing tips</li>
+                </ul>
+            </div>
+            <div class="style-tip-card">
+                <h3>Accessorize Your Look</h3>
+                <p>Find out how to elevate your outfits with the right accessories. From jewelry to bags, learn how to choose accessories that complement your style.</p>
+                <ul>
+                    <li>Statement jewelry pieces</li>
+                    <li>Stylish handbags</li>
+                    <li>Scarves and hats</li>
+                </ul>
+            </div>
+            <div class="style-tip-card">
+                <h3>Seasonal Trends</h3>
+                <p>Stay ahead of the curve with our guide to the latest seasonal trends. Discover what's hot this season and how to incorporate it into your wardrobe.</p>
+                <ul>
+                    <li>Current fashion trends</li>
+                    <li>Seasonal must-haves</li>
+                    <li>Style inspiration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, please feel free to contact us. We are here to help!</p>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="/submit-form" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+            <div class="subscribe-form">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="/subscribe" method="post">
+                    <div class="form-group">
+                        <label for="subscribe-email">Email</label>
+                        <input type="email" id="subscribe-email" name="subscribe-email" required>
+                    </div>
+                    <button type="submit" class="submit-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About Deron Clothing</h3>
+                <p>Deron Clothing is committed to offering you the latest in fashion and style. Whether you're looking for the newest trends or classic staples, we have something for everyone. Shop with us and discover the joy of fashion!</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#style-tips">Style Tips</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Deron Clothing. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
